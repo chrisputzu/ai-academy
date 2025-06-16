@@ -1,4 +1,8 @@
+# Il codice ripulito e ottimizzato
 
+# --- Costanti ---
+# Le "magic numbers" (numeri senza un contesto chiaro) sono state sostituite
+# da costanti con nomi descrittivi per migliorare la leggibilità.
 X_THRESHOLD = 10
 Y_THRESHOLD = 5
 LARGE_VALUE_THRESHOLD = 50

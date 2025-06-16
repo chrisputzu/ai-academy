@@ -4,14 +4,7 @@ Y_THRESHOLD = 5
 LARGE_VALUE_THRESHOLD = 50
 
 def calcola_valori_processati(lista_x, lista_y, valore_z):
-    """
-    Calcola una lista di valori basandosi su delle condizioni applicate agli elementi delle liste di input.
 
-    Questa funzione sostituisce la vecchia funzione 'data'.
-    - Ha un nome più descrittivo.
-    - Non contiene codice duplicato o variabili inutilizzate.
-    - Utilizza una list comprehension per essere più concisa ed efficiente.
-    """
     risultati = []
     # Un solo ciclo invece di due blocchi identici.
     # La logica if/else annidata è stata semplificata con 'elif'.

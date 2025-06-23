@@ -7,6 +7,8 @@ client = openai.AzureOpenAI(
     api_version="2025-01-01-preview",  # <-- La versione dal portale Azure
 )
 
+
+
 response = client.chat.completions.create(
     model="chatgpt-demo",  # <-- Il nome esatto del deployment in Azure
     messages=[

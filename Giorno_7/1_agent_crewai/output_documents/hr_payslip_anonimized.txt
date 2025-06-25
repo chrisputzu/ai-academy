@@ -1,0 +1,7 @@
+[ORG],
+
+Di seguito sono riportati i dettagli della busta paga per [PER] dalla filiale di [LOC], datata [DATE]. Il codice IBAN associato è [IBAN], e il suo codice fiscale è [CODICE FISCALE]. Per ogni domanda o necessità, contattatemi via email all'indirizzo [EMAIL] oppure al numero [PHONE].
+
+Cordiali saluti,
+
+[PER].

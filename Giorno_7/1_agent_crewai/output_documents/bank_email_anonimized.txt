@@ -1,0 +1,7 @@
+[PER],
+
+Le scrivo in merito al conto personale a nome di [PER] presso [ORG], filiale di [LOC], sito in [LOC]. La data di apertura del conto è [DATE] e il suo codice IBAN è [IBAN]. Il codice fiscale associato è [CODICE FISCALE]. Per ulteriori dettagli, può contattarmi al numero +39 349 123 4567 o inviarmi una email a [EMAIL].
+
+Cordiali saluti,
+
+[PER].

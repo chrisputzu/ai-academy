@@ -10,9 +10,9 @@ load_dotenv()
 azure_endpoint_embeddings = os.getenv("AZURE_ENDPOINT_EMB")
 azure_api_key_embeddings  = os.getenv("AZURE_API_KEY_EMB")
 
-azure_deployment          = "gpt-4o"
-azure_endpoint_llm        = os.getenv("AZURE_ENDPOINT_LLM")
-azure_api_key_llm         = os.getenv("AZURE_API_KEY_LLM")
+azure_deployment = "gpt-4o"
+azure_endpoint_llm = os.getenv("AZURE_ENDPOINT_LLM")
+azure_api_key_llm = os.getenv("AZURE_API_KEY_LLM")
 
 DOCUMENTS_DIR = "input_folder"
 
@@ -20,17 +20,17 @@ splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 
 embedding = AzureOpenAIEmbeddings(
     azure_endpoint = azure_endpoint_embeddings,
-    api_key        = azure_api_key_embeddings,
-    deployment     = "text-embedding-ada-002",
-    api_version    = "2024-12-01-preview"
+    api_key = azure_api_key_embeddings,
+    deployment = "text-embedding-ada-002",
+    api_version = "2024-12-01-preview"
 )
 
 llm = AzureChatOpenAI(
-    azure_endpoint  = azure_endpoint_llm,
-    api_key         = azure_api_key_llm,
+    azure_endpoint = azure_endpoint_llm,
+    api_key = azure_api_key_llm,
     deployment_name = azure_deployment,
-    api_version     = "2024-12-01-preview",
-    temperature     = 0
+    api_version = "2024-12-01-preview",
+    temperature = 0
 )
 
 
@@ -48,9 +48,9 @@ vectordb  = Chroma.from_documents(all_chunks, embedding)
 retriever = vectordb.as_retriever(search_kwargs={"k":8})  
 
 qa_chain = ConversationalRetrievalChain.from_llm(
-    llm                       = llm,
-    retriever                 = retriever,
-    return_source_documents   = True
+    llm = llm,
+    retriever = retriever,
+    return_source_documents = True
 )
 
 

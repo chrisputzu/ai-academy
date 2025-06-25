@@ -1,0 +1,119 @@
+
+def valida_prompt(prompt):
+    """
+    Controlla il prompt prima di inviarlo al modello.
+    Blocca contenuti vietati, reset di ruolo, richieste sensibili ecc.
+    """
+
+    # 1. Lista di parole/frasi da bloccare (case-insensitive)
+    blacklist = [
+        "ignora istruzioni",
+        "resetta ruolo",
+        "password",
+        "token",
+        "chiave API",
+        "bypass",
+        "modifica comportamento",
+        "exploit",
+        "eludi",
+        "istruzioni precedenti",
+        "accesso admin",
+        "disable filter",
+        "jailbreak",
+        "malware"
+        # Aggiungi altre parole chiave qui
+    ]
+    
+    # 2. Controllo presenza parole vietate
+    for parola in blacklist:
+        if parola.lower() in prompt.lower():
+            raise ValueError(f"Prompt bloccato: contiene '{parola}'")
+
+    # 3. Limite sulla lunghezza del prompt
+    max_length = 400  # caratteri
+    if len(prompt) > max_length:
+        raise ValueError("Prompt troppo lungo")
+
+    # 4. (Facoltativo) Controlli aggiuntivi - esempio: vietare variabili tipo `${...}`
+    import re
+    if re.search(r"\$\{.*?\}", prompt):
+        raise ValueError("Prompt contiene variabili non consentite")
+
+    # Se tutti i controlli sono superati
+    return True
+
+
+# Esempio d’uso
+prompt_utente = input("Inserisci il prompt da controllare: ")
+try:
+    if valida_prompt(prompt_utente):
+        print("Prompt accettato. Procedo con invio al modello.")
+except ValueError as e:
+    print("Errore:", e)
+
+
+
+
+
+
+
+
+
+## esercizio price token
+import tiktoken
+
+# Prezzi per token per ciascun modello
+prezzi_modello = {
+    "gpt-4": 0.01,
+    "gpt-4-0314": 0.01,
+    "gpt-4-0613": 0.01,
+    "gpt-4-32k": 0.02,
+    "gpt-4-32k-0314": 0.02,
+    "gpt-4-32k-0613": 0.02,
+    "gpt-4-turbo": 0.003,
+    "gpt-4o": 0.005,
+    "gpt-3.5-turbo": 0.0005,
+    "gpt-3.5-turbo-0301": 0.0005,
+    "gpt-3.5-turbo-0613": 0.0005,
+    "gpt-3.5-turbo-1106": 0.0005,
+    "gpt-3.5-turbo-0125": 0.0005,
+    "gpt-4.1": 0.002,
+    "gpt-4.1 mini": 0.0004,
+    "gpt-4.1 nano": 0.0001,
+    "OpenAi o3": 0.002,
+    "OpenAi o4-mini": 0.0011,
+}
+
+# Alias per i tokenizer compatibili
+alias_tokenizer = {
+    "gpt-4.1": "gpt-4",
+    "gpt-4.1 mini": "gpt-4",
+    "gpt-4.1 nano": "gpt-4",
+    "OpenAi o3": "gpt-3.5-turbo",
+    "OpenAi o4-mini": "gpt-4",
+}
+
+def stima_costo_token(testo, modello):
+    if modello not in prezzi_modello:
+        raise ValueError(f"Modello non supportato: {modello}")
+    
+    alias_utilizzato = alias_tokenizer.get(modello, modello)
+    
+    try:
+        codifica = tiktoken.encoding_for_model(alias_utilizzato)
+    except KeyError:
+        codifica = tiktoken.get_encoding("cl100k_base")
+    
+    num_token = len(codifica.encode(testo))
+    prezzo_unitario = prezzi_modello[modello]
+    costo_totale = num_token * prezzo_unitario
+    
+    print("Modello selezionato:", modello)
+    print("Numero di token:", num_token)
+    print("Prezzo per token ($):", round(prezzo_unitario, 8))
+    print("Costo totale stimato ($):", round(costo_totale, 6))
+
+if __name__ == "__main__":
+    testo_utente = input("Inserisci il prompt:\n")
+    nome_modello = input("Nome del modello: ").strip()
+    stima_costo_token(testo_utente, nome_modello)

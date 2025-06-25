@@ -1,2 +1,0 @@
-[PER],
-La informiamo che la sua richiesta presso [ORG] è stata approvata. Il documento è stato generato in data [DATE] e sarà disponibile presso [LOC], [LOC]. Il codice IBAN associato è [IBAN] e il codice fiscale è [CODICE FISCALE]. Per ulteriori informazioni, può contattare [PER] all'indirizzo email [EMAIL] o al numero +39 349 123 4567.

@@ -1,2 +1,0 @@
-[PER],
-Si prega di prendere nota che il documento di dettaglio, elaborato dal [ORG] di [ORG], è disponibile presso l'[ORG] di [LOC]. La preparazione è stata completata in data [DATE]. Si ricorda che il codice fiscale associato è [CODICE FISCALE] e il codice IBAN è [IBAN]. Eventuali domande o chiarimenti possono essere inviati a [EMAIL] o al numero [PHONE].

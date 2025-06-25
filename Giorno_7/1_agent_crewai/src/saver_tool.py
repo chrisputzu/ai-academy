@@ -6,8 +6,7 @@ def save_documents(docs: List[Dict[str, str]], output_folder: str = "output_docu
     """
     Save a list of anonymized documents to the specified output folder.
 
-    Each file will be saved using its original filename with the suffix 
-    '_anonimized.txt'.
+    Each file will be saved using its original filename and a tag _anonimized.
 
     Parameters
     ----------

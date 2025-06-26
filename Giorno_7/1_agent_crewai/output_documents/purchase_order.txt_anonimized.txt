@@ -1,0 +1,1 @@
+Dear [PER], The purchase order for [ORG] has been processed. The shipment will be dispatched from [LOC], [LOC], [LOC], and delivered to [LOC], [LOC], [LOC]. If you have any questions, do not hesitate to reach out to our customer support team at [ORG].

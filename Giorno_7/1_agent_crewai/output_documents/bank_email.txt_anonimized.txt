@@ -1,0 +1,1 @@
+[PER], La informiamo che la Sua consulenza con [PER] di [ORG] si terrà presso la filiale di [LOC] in [LOC]. La data di incontro è [DATE]. Le ricordiamo di portare con sé il documento con IBAN: [IBAN], e il codice fiscale: [CODICE FISCALE]. Per ulteriori informazioni, può contattarci via email all'indirizzo [EMAIL] o telefonare al numero +39 349 123 4567.

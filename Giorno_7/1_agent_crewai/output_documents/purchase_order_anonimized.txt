@@ -1,7 +1,0 @@
-Dear [ORG],
-
-This is to acknowledge the receipt of the purchase order from [PER] for [ORG]. The shipment should be sent to [LOC], [LOC] ([LOC]), as per the client's instructions. The billing address mentioned is [LOC], [LOC], [LOC].
-
-Best regards,
-
-[PER].

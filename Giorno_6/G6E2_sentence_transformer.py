@@ -6,12 +6,13 @@ model = SentenceTransformer("all-MiniLM-L6-v2")
 sentences = [
     "Luca ha comprato una macchina nuova",
     "Luca si è appena comprato una macchina nuova",
-    "Oggi piove molto a Milano",
+    "Oggi piove molto a Milano"
 ]
 
 # 2. Calculate embeddings by calling model.encode()
 embeddings = model.encode(sentences)
 
+# 3. Calculate cosine similarities between the embeddings
 similarities = model.similarity(embeddings, embeddings)
 
 print("Similarità tra le frasi:")

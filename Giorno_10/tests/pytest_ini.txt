@@ -1,0 +1,56 @@
+[tool:pytest]
+# Configurazione pytest
+testpaths = tests
+python_files = test_*.py
+python_classes = Test*
+python_functions = test_*
+
+# Markers personalizzati
+markers =
+    slow: marks tests as slow (deselect with '-m "not slow"')
+    integration: marks tests as integration tests
+    azure: marks tests that require Azure credentials
+    unit: marks tests as unit tests
+    smoke: marks tests as smoke tests
+
+# Opzioni di default
+addopts = 
+    --strict-markers
+    --strict-config
+    --verbose
+    --tb=short
+    --cov=.
+    --cov-report=term-missing
+    --cov-report=html:htmlcov
+    --cov-fail-under=80
+    -p no:warnings
+
+# Filtri warning
+filterwarnings =
+    ignore::UserWarning
+    ignore::DeprecationWarning
+    ignore::PendingDeprecationWarning
+
+# Configurazione coverage
+[coverage:run]
+source = .
+omit = 
+    tests/*
+    venv/*
+    env/*
+    .venv/*
+    setup.py
+    conftest.py
+
+[coverage:report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    if self.debug:
+    if settings.DEBUG
+    raise AssertionError
+    raise NotImplementedError
+    if 0:
+    if __name__ == .__main__.:
+    class .*\bProtocol\):
+    @(abc\.)?abstractmethod

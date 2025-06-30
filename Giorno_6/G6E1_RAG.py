@@ -40,4 +40,5 @@ for path in paths:
         temperature=1,
     )
 
-    print(response.choices[0].message.content.strip())
+    predizione = response.choices[0].message.content.strip()
+    print(f"Il file {path} è di tipo: {predizione}")

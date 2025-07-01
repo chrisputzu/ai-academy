@@ -1,0 +1,11 @@
+"[PER]ile Studio Legale Ferri,
+
+mi chiamo [PER], nato a [LOC] il [DATE], attualmente residente in [LOC] 12, 09100 [LOC].  
+La contatto in merito alla questione legale che coinvolge TechNova S.p.A., con sede a [LOC], presso la quale ho lavorato dal [DATE] al [DATE].  
+
+I miei dati personali includono il codice fiscale [CODICE FISCALE] e l’IBAN [IBAN].  
+Vi prego di confermare la ricezione del presente messaggio e di informarmi sui prossimi passi.  
+
+Cordiali saluti,  
+[PER]  
+[EMAIL]"  

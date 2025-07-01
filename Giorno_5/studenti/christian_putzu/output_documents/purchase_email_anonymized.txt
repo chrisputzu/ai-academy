@@ -1,0 +1,25 @@
+"[ORG],
+
+di seguito i dettagli del nuovo ordine di acquisto.
+
+Numero Ordine: [ORDER]
+Data: [DATE]
+Fornitore: [ORG]
+Persona di riferimento: [PER]
+Codice bancario: [BANK]
+Codice fiscale: [TAX]
+Indirizzo di consegna: [LOC], [LOC], [LOC]
+Data di spedizione: [DATE]
+
+Articoli ordinati:
+
+10 x [ITEM]
+5 x [ITEM]
+
+Importo totale: [CURRENCY] [AMOUNT]
+
+Vi preghiamo di assicurarvi che la spedizione arrivi puntualmente. Per qualsiasi domanda, contattare [PER] del nostro [ORG].
+
+Cordiali saluti,  
+[PER]  
+[ORG]"

@@ -1,0 +1,11 @@
+"[ORG] di [ORG],
+
+sono [PER] ([EMAIL]), assunta il [DATE], e attualmente in servizio presso l’[ORG] di [LOC].  
+Il mio codice fiscale è [CODICE FISCALE] e il conto bancario per l'accredito dello stipendio è [IBAN].  
+
+Vorrei sapere se è disponibile la Certificazione Unica (CU) 2024 e se verrà caricata sulla piattaforma My[ORG].  
+
+Vi ringrazio anticipatamente.  
+
+Cordiali saluti,  
+[PER]"  

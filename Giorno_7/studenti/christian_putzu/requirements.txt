@@ -1,0 +1,5 @@
+﻿chromadb==1.0.13
+tokenizers==0.21.2
+transformers==4.52.4
+
+

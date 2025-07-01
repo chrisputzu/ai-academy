@@ -1,0 +1,28 @@
+Purchase Order
+PURCHASE ORDER No: 2025-ACX1789
+Date: June 23, 2025
+
+Buyer:
+Brightwave Technologies Inc.
+125 Madison Avenue
+New York, NY, 10016
+
+Vendor:
+NovaTek Solutions Ltd.
+82 Kingsway Crescent
+London, UK, W5 8SR
+
+Item Code	Description	Quantity	Unit Price (USD)	Total
+NX-5001	AI Edge Module – Gen II	10	$850.00	$8,500.00
+NX-USB32	USB-C to Neural Interface Hub	15	$75.00	$1,125.00
+Subtotal			$9,625.00
+Shipping			$125.00
+Total			$9,750.00
+
+Expected Delivery Date: July 1, 2025
+Payment Terms: Net 30 days
+
+Authorized by:
+Daniel Brooks – Procurement Officer
+Brightwave Technologies Inc.
+

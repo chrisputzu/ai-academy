@@ -1,0 +1,23 @@
+Email – Order Confirmation
+Subject: Order Confirmation – PO# 2025-ACX1789
+
+Dear Mr. Thompson,
+
+Thank you for your recent purchase with NovaTek Solutions Ltd.
+We are pleased to confirm your order as follows:
+
+Purchase Order Number: 2025-ACX1789
+Order Date: June 23, 2025
+Delivery Address:
+Brightwave Technologies Inc.
+125 Madison Avenue
+New York, NY, 10016
+
+Your order will be shipped within 5 business days. A tracking number will be sent once the shipment has been dispatched.
+
+Should you have any questions, feel free to contact us at support@novatek.com.
+
+Best regards,
+Sarah Jennings
+Sales Coordinator
+NovaTek Solutions Ltd.

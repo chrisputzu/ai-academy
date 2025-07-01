@@ -1,0 +1,35 @@
+Contract
+SERVICE AGREEMENT
+Between:
+NovaTek Solutions Ltd.
+(Registered in England and Wales No. 0928374)
+82 Kingsway Crescent, London, UK
+
+And:
+Brightwave Technologies Inc.
+125 Madison Avenue, New York, NY, USA
+
+Effective Date: June 23, 2025
+
+Purpose:
+NovaTek agrees to provide AI hardware components and technical support services to Brightwave Technologies for integration into their next-generation autonomous systems.
+
+Key Terms:
+
+Term: 12 months, renewable annually.
+
+Scope: Hardware supply, firmware updates, and Tier 2 technical support.
+
+Payment Terms: Invoices payable within 30 days of receipt.
+
+Confidentiality: Both parties agree to maintain strict confidentiality regarding proprietary information.
+
+Termination: With 30 days' written notice by either party.
+
+Signatures:
+
+Emily Carter
+CEO, NovaTek Solutions Ltd.
+
+Lucas Chen
+CTO, Brightwave Technologies Inc.

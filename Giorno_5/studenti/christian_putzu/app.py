@@ -28,9 +28,6 @@ class EmailAnonymizer:
 
         # Confgure SSL certificate
         load_dotenv()
-        ssl._create_default_https_context = ssl._create_unverified_context
-        ssl_certificate = os.getenv("CA_BUNDLE")
-        os.environ["REQUESTS_CA_BUNDLE"] = ssl_certificate
 
         # 1 STEP. Create output folder if it does not exist
         self.input_folder = input_folder
@@ -144,21 +141,14 @@ class EmailAnonymizer:
 
                 # 5. Generate a prompt to return anonymized emails using gpt-4o
                 prompt = f"""
-                You are a privacy assistant helping to redact sensitive information from documents.
-
-                Below is a document that has already been partially anonymized.  
-                Use the list of named entities provided to ensure all sensitive data has been fully replaced with appropriate placeholders (e.g., [PERSON], [IBAN], [ORG], etc.).
-
-                Do not attempt to reconstruct or guess any original information.
-
-                --- Entities extracted ---
-                {entities}
-
-                --- Anonymized Document ---
-                {anonymized_email}
-
-                Please return only the fully anonymized version of the document.
-                """
+                You are a privacy assistant.\n"  # system preamble
+                Below is a document that has already been anonymized with placeholders (e.g., [PER], [IBAN], [EMAIL]).\n
+                "Review it and return only the fully anonymized version ensuring: \n
+                No sensitive or personally identifiable information remains\n
+                Placeholder format is consistent ([LABEL])\n
+                You do not attempt to infer or reconstruct original data\n
+                --- Document ---\n
+                "{anonymized_email}"""
                 self.log_debug("Prompt Sent to GPT-4o (truncated)", prompt[:500] + "...")
 
                 try:

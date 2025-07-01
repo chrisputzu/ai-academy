@@ -1,7 +1,0 @@
-[PER],
-
-Con la presente comunichiamo che [PER], rappresentante legale di ##ile Studio Legal, ha concluso l'accordo con TechNova S. p. A. Il contratto è stato firmato presso la sede di [LOC] ([LOC]) il [DATE]. I dettagli bancari forniti sono i seguenti: IBAN [IBAN] e Codice Fiscale [CODICE FISCALE]. Per ulteriori informazioni può inviare una email a [EMAIL] o chiamare al numero [PHONE].
-
-Cordiali saluti,
-
-[PER].

@@ -1,0 +1,11 @@
+"[PER],
+
+mi chiamo [PER], nato a [LOC] il [DATE], attualmente residente in [LOC] 24, 20121 [LOC].
+
+Le scrivo in merito a un accredito errato sul mio conto bancario [IBAN] presso la [ORG].  
+In allegato trova una copia del mio codice fiscale: [CODICE FISCALE].
+
+In attesa di un suo riscontro, porgo cordiali saluti.  
+[PER]  
+[EMAIL]  
+Telefono: [PHONE]"  

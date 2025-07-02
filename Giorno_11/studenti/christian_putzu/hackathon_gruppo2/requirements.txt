@@ -1,0 +1,14 @@
+altair
+pandas
+streamlit
+streamlit
+transformers
+langchain
+openai
+python-dotenv
+crewai
+faiss-cpu
+pandas
+numpy
+langchain-openai
+langchain-community

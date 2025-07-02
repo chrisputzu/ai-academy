@@ -1,0 +1,27 @@
+NOTA DI CREDITO N. NC-45/2025
+
+Data: 21/06/2025
+
+DA:
+SmartDocs Srl
+Via dei Dati Sicuri, 1
+00184 Roma (RM)
+P.IVA: 12345678901
+
+A:
+Bianchi Elettronica di Luca Bianchi
+Via Indipendenza, 45
+40121 Bologna (BO)
+P.IVA: 09876543210
+
+Riferimento a Vostra Fattura N. 123/2025.
+
+DESCRIZIONE                                 IMPORTO A CREDITO
+-------------------------------------------------------------
+Storno per servizio non usufruito           € 50,00
+-------------------------------------------------------------
+                                            TOTALE A CREDITO: € 50,00
+                                            (IVA inclusa)
+
+Questo importo verrà scalato dalla vostra prossima fattura.
+Per informazioni, contattare il nostro ufficio al 06 123456.

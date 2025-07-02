@@ -5,7 +5,7 @@ Configurazioni per il sistema di anonimizzazione documenti.
 import os
 from dotenv import load_dotenv
 
-# Carica variabili d'ambiente
+# Carica variabili d'ambiente da .env se esiste
 load_dotenv()
 
 class Config:

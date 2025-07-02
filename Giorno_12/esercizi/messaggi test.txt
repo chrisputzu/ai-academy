@@ -1,0 +1,10 @@
+"Congratulations! You've won a $1000 Walmart gift card. Go to http://bit.ly/12345 to claim now!",
+"Hey, are we still on for lunch tomorrow?",
+"URGENT! Your account has been suspended. Click here to resolve immediately.",
+"Can you send me the report by 5 PM today?",
+"WINNER! Call 555-123-4567 to claim your prize. Limited time only!",
+"Are you free this weekend for the party?",
+"You have been pre-approved for a $5000 loan. Apply now!",
+"Happy birthday! Hope you have a great day!",
+"Claim your free iPhone 14 now! Offer expires soon.",
+"Don't forget about the team meeting at 3 PM."

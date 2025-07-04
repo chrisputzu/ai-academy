@@ -1,0 +1,29 @@
+FATTURA N. 123/2025
+
+Data: 20/06/2025
+
+DA:
+SmartDocs Srl
+Via dei Dati Sicuri, 1
+00184 Roma (RM)
+P.IVA: 12345678901
+
+A:
+Bianchi Elettronica di Luca Bianchi
+Via Indipendenza, 45
+40121 Bologna (BO)
+P.IVA: 09876543210
+Codice Fiscale: BNC LCU 75P04 A944Z
+
+DESCRIZIONE                                 Q.TÀ      PREZZO      IMPORTO
+-------------------------------------------------------------------------
+Licenza Software "DocuShield" (Annuale)       1       € 500,00     € 500,00
+Servizio Cloud Backup (Giugno 2025)           1       €  50,00     €  50,00
+-------------------------------------------------------------------------
+                                                     IMPONIBILE:   € 550,00
+                                                     IVA 22%:      € 121,00
+                                                     TOTALE:       € 671,00
+
+Pagamento da effettuare entro 30 giorni tramite bonifico bancario al seguente IBAN:
+IT99Z0306909606100000012345
+Contatto per info amministrative: info@smartdocs.srl

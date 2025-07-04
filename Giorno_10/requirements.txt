@@ -1,0 +1,11 @@
+streamlit
+transformers
+langchain
+openai==1.88.0
+python-dotenv
+crewai
+faiss-cpu
+pandas
+numpy
+langchain-openai
+langchain-community

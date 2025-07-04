@@ -31,7 +31,7 @@ n_clienti = len(agg)
 print(f"\nNumero totale di clienti nel database Olist: {n_clienti}")
 
 # Taglia il dataset per motivi di velocità (ad es. 2000 clienti)
-MAX_CLIENTI = 7000
+MAX_CLIENTI = 50000
 if n_clienti > MAX_CLIENTI:
     agg = agg.sample(MAX_CLIENTI, random_state=42).reset_index(drop=True)
     print(f"Campione casuale ridotto a {MAX_CLIENTI} clienti per velocità.")

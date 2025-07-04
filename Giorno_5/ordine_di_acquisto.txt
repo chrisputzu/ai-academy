@@ -1,0 +1,26 @@
+ORDINE DI ACQUISTO N. ODA-2025-789
+
+Data Ordine: 19/06/2025
+
+Cliente:
+Bianchi Elettronica di Luca Bianchi
+Via Indipendenza, 45
+40121 Bologna (BO)
+
+Referente per l'ordine: Luca Bianchi
+Email: luca.bianchi@email-cliente.it
+Telefono: 347 7890123
+
+Dettagli dell'ordine per SmartDocs Srl:
+-------------------------------------------------------------------------
+PRODOTTO/SERVIZIO                         Q.TÀ      
+-------------------------------------------------------------------------
+Setup iniziale servizio "DocuShield"          1
+Formazione personale (2 ore)                  1
+-------------------------------------------------------------------------
+
+Indirizzo di fatturazione e spedizione coincidono.
+Si prega di emettere fattura a seguito di questo ordine.
+
+Cordiali saluti,
+Luca Bianchi

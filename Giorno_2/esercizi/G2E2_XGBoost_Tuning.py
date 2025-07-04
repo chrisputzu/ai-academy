@@ -3,7 +3,7 @@ from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # Carica dati
-df = pd.read_csv("G2E1_clienti_churn_molti_dati.csv")
+df = pd.read_csv("G2E2_clienti_churn_molti_dati.csv")
 train = df.iloc[:45]
 test = df.iloc[45:]
 

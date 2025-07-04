@@ -1,0 +1,12 @@
+La fattura numero 12345 è stata emessa da ACME S.p.A. il 15/03/2024.
+L’importo da pagare è 2.500,00 euro.
+La scadenza per il pagamento è il 31/03/2024.
+Il pagamento deve essere fatto con bonifico bancario sull’IBAN IT60X0542811101000000123456.
+
+Per informazioni, contattare Laura Bianchi (referente) all’email laura.bianchi@acme.com o al telefono +39 345 6789012.
+
+Il codice fiscale di Mario Rossi è RSSMRA80A01H501U.
+
+Cordiali saluti,
+Ufficio Amministrazione
+ACME S.p.A.

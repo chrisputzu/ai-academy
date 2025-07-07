@@ -1,4 +1,11 @@
-**.env/
-**.venv/
-**__pycache__/
+# Ignore .env files everywhere
+.env
+**/.env
 
+# Ignore .venv directories everywhere
+.venv/
+**/.venv/
+
+# Ignore __pycache__ directories everywhere
+__pycache__/
+**/__pycache__/

@@ -192,19 +192,6 @@ for metric, score in results_df.loc[best_model].items():
     print(f"  {metric}: {score:.4f}")
 print(f"{'='*60}")
 
-# # Test the model on custom messages
-# with open('../../../esercizi/messaggi test.txt', 'r') as file:
-#     test_message = file.read()
-# splitted_list = test_message.split('\n')
-
-# for i in splitted_list:
-#     # Apply lemmatization to each test message
-#     lemmatized = lemmatize_text(i)
-#     test_features = vectorizer.transform([lemmatized])
-#     predicted_label = model.predict(test_features)
-
-#     print(f"\nTest Message: {i}")
-#     print(f"Predicted Label: {predicted_label[0]}")
 
 
 

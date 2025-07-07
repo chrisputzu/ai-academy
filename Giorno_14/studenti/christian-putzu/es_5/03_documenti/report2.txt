@@ -1,0 +1,56 @@
+REPORT URGENTE - GRAVI DISFUNZIONI SISTEMA INFORMATICO
+Data: 27/06/2025 - Priorità: MASSIMA
+
+Destinatario: Direzione Generale, CTO, Responsabile IT
+Da: Dott. Francesco Lombardi - Responsabile Operazioni
+
+PREMESSA:
+La situazione del sistema informatico aziendale è DEGENERATA oltre ogni limite di tolleranza. I continui malfunzionamenti stanno paralizzando l'intera operatività aziendale con danni economici incalcolabili.
+
+PROBLEMI CRITICI RILEVATI:
+
+1. SERVER PRINCIPALE - COLLASSI QUOTIDIANI
+- 15 blocchi totali negli ultimi 7 giorni
+- Perdita dati: 3 database corrotti irreversibilmente  
+- Downtime complessivo: 47 ore in una settimana
+- INACCETTABILE per un'azienda della nostra dimensione!
+
+2. RETE AZIENDALE - PRESTAZIONI DISASTROSE
+- Velocità di connessione: 20% rispetto ai parametri contrattuali
+- Email server: funzionante solo 6 ore su 24
+- Condivisione files: IMPOSSIBILE da 5 giorni
+- I dipendenti NON RIESCONO A LAVORARE!
+
+3. SOFTWARE GESTIONALE - COMPLETAMENTE INADEGUATO
+- Crash dell'applicazione: 8-10 volte al giorno
+- Dati clienti inaccessibili da 72 ore
+- Fatturazione elettronica: BLOCCATA da giovedì
+- Contabilità: calcoli errati per € 50.000
+
+4. BACKUP SYSTEM - TOTALMENTE COMPROMESSO
+- Ultimo backup funzionante: 12 giorni fa
+- Sistema di sicurezza: DISATTIVATO da settimane
+- Rischio perdita TUTTI i dati aziendali
+
+CONSEGUENZE DEVASTANTI:
+- Ordini clienti persi: € 120.000 in 3 giorni
+- Reclami clienti: +400% rispetto al mese scorso  
+- Produttività dipendenti: -70%
+- Reputation aziendale: COMPROMESSA GRAVEMENTE
+
+AZIONI IMMEDIATE RICHIESTE:
+1. Sostituzione TOTALE dell'infrastruttura IT entro 48 ore
+2. Contratto assistenza H24 con azienda specializzata SERIA
+3. Licenziamento immediato del fornitore attuale
+4. Budget emergenza: minimo € 200.000
+
+Se non si interviene SUBITO, l'azienda rischia il fallimento!
+
+La mia responsabilità è avvisarvi: HO FATTO IL MIO DOVERE.
+Ora spetta alla Direzione AGIRE IMMEDIATAMENTE!
+
+Dott. Francesco Lombardi
+Responsabile Operazioni
+f.lombardi@azienda.it - Tel. 02-9999888 (SEMPRE RAGGIUNGIBILE)
+
+NOTA: Invio copia per conoscenza anche al Consiglio di Amministrazione
